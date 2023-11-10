@@ -1,10 +1,16 @@
+.container {
+  text-align: center;
+}
+
 .exchange-box {
-  border: 1px solid black;
+  border: 1px solid #dedede;
   width: 400px;
 }
 
 .input-area input {
+  text-align: center;
   width: 100%;
+  border: 1px solid #dedede;
   box-sizing: border-box; /* Prevent box oversizing */
 }
 
@@ -58,4 +64,12 @@
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
   background-color: #ec2c92;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
 }
