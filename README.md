@@ -1,4 +1,4 @@
-# currency convert projet
+# currency convert project
 
 1. make 2 boxes
 2. make 2 dropdown lists
